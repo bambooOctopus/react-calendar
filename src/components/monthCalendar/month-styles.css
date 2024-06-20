@@ -1,0 +1,40 @@
+.month-calendar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.month-nav {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1.5rem;
+}
+
+.day-name-header {
+    display: grid;
+    grid-template-columns: repeat(7, 4rem);
+    grid-template-rows: 1 2rem;
+    gap: .3rem;
+}
+
+.day-name {
+    border: solid 1px lightgray;
+    padding: .3rem;
+    text-align: center;
+}
+
+.days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 4rem);
+    grid-template-rows: repeat(5, 4rem);
+    gap: .3rem;
+    margin-top: .3rem;
+}
+
+.day {
+    border: solid 1px lightgray;
+    padding: .2rem;
+}
